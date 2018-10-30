@@ -1,0 +1,105 @@
+Ganache CLI v6.1.8 (ganache-core: 2.2.1)
+Error: listen EADDRINUSE: address already in use 127.0.0.1:7545
+    at Server.setupListenHandle [as _listen2] (net.js:1290:14)
+    at listenInCluster (net.js:1338:12)
+    at doListen (net.js:1469:7)
+    at internalTickCallback (internal/process/next_tick.js:72:19)
+    at process._tickCallback (internal/process/next_tick.js:47:5)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:763:11)
+    at startup (internal/bootstrap/node.js:303:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:872:3)
+Ganache CLI v6.1.8 (ganache-core: 2.2.1)
+
+Available Accounts
+==================
+(0) 0x08434a7688f6c32e503de050c25d9f2a8d573834 (~100 ETH)
+(1) 0x70e3c1ae72a96f5b37eae1582b2cd59a31904637 (~100 ETH)
+(2) 0xd6c510f6625a41974ef5dc01977b48d09318d661 (~100 ETH)
+(3) 0x73bd9fc9e9a699a405f59326fbe8bddf448d05bd (~100 ETH)
+(4) 0x68f4ab2103fcba19d07a7196ea070a9cd437f014 (~100 ETH)
+(5) 0x7c957a36b13dcc4ddb1fac2383316b99c7e6e308 (~100 ETH)
+(6) 0xee9e48f6411e24efcfa3518c3f44f2aae55cfc3c (~100 ETH)
+(7) 0xff1a00e9b73796e628daed6c554072ec8ac9fea6 (~100 ETH)
+(8) 0xf74a89e45e2c7010a3278b9e68e601ca1b982828 (~100 ETH)
+(9) 0x07546c46afe60ee806ff86db0cea2763d056ec7a (~100 ETH)
+
+Private Keys
+==================
+(0) 0x0702d2c4a62b4300484606962916540859cd9d03116b6b305f6448234610cfa8
+(1) 0xcbebf1f6b0f9cc2f2e747e2db4181a99bfdcccbfbce0ac2a752d051d78f99100
+(2) 0x249c7cbe190750ef42a9ca14dd94b6d3f9b662a7dda5110528149dd5f5e02cfe
+(3) 0xc63afd27b1268b959677af8ae51518c77729dec56d5d7b2879c76565dd53440e
+(4) 0x05528ce1f60eabbd6a32f7ba0d756ce5c3894b1042d5bb11f4b211fbe772f9ba
+(5) 0x011e0ab15853adb60c1efe85083ff06d72dfd6179c006e7db84088683b016777
+(6) 0xed95a687ee8bc15a81931168e85f4ba3b197b764f9d8bc6c8bbe98f54e9402ac
+(7) 0xa8bf9716236470f7ebf0b7ff9e6eca45fe794e9e923493c2d268fca84b830c86
+(8) 0xde398b5b541c52a5e7d061df2a7c3489e7dc9effe18e9e4f2de1e2d9e1ebce8b
+(9) 0x5390f61eb979a0f116e7a232e6859941e4deb29f30ab209e68c6612277bb56dc
+
+HD Wallet
+==================
+Mnemonic:      unique female fiscal aerobic people warm spawn stereo cradle property term donkey
+Base HD Path:  m/44'/60'/0'/0/{account_index}
+
+Gas Price
+==================
+20000000000
+
+Gas Limit
+==================
+6721975
+
+Listening on 127.0.0.1:7545
+net_version
+eth_accounts
+eth_accounts
+net_version
+net_version
+eth_sendTransaction
+
+  Transaction: 0xdbcc2c43adc3ad758df525e9299ab8c54608d87656791d8ce0c98a1d570632a4
+  Contract created: 0xc0705313bb81d035f36443948fbf2a9352138089
+  Gas usage: 277462
+  Block Number: 1
+  Block Time: Tue Oct 30 2018 11:07:06 GMT+0800 (China Standard Time)
+
+eth_newBlockFilter
+eth_getFilterChanges
+eth_getTransactionReceipt
+eth_getCode
+eth_uninstallFilter
+eth_sendTransaction
+
+  Transaction: 0x8b3201baba08785afd9065e58f48663f9208f00d60f68288f57256b9a88ce2c7
+  Gas usage: 42008
+  Block Number: 2
+  Block Time: Tue Oct 30 2018 11:07:06 GMT+0800 (China Standard Time)
+
+eth_getTransactionReceipt
+eth_accounts
+net_version
+net_version
+eth_sendTransaction
+
+  Transaction: 0x8428cd610591bc8921f3868af77f1f984d17ab0fe42253662d1f1b45874ed37a
+  Contract created: 0x216f01fd5e88c3066ecbadf382c8940dae4700a5
+  Gas usage: 245838
+  Block Number: 3
+  Block Time: Tue Oct 30 2018 11:07:07 GMT+0800 (China Standard Time)
+
+eth_newBlockFilter
+eth_getFilterChanges
+eth_getTransactionReceipt
+eth_getCode
+eth_uninstallFilter
+eth_sendTransaction
+
+  Transaction: 0xa2f0c4227071bc72fc97168b87d795e089ab23c4dce8a8f9eb1efe2a13baac92
+  Gas usage: 27008
+  Block Number: 4
+  Block Time: Tue Oct 30 2018 11:07:07 GMT+0800 (China Standard Time)
+
+eth_getTransactionReceipt
+net_version
+eth_accounts
+eth_call
